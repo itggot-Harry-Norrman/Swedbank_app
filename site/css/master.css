@@ -3,6 +3,10 @@ body {
   color: white;
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 .mainbox {
   display: flex;
   flex-direction: column;
@@ -15,9 +19,9 @@ header {
   background-color: #212121;
   height: 80px;
   width: 100vw;
-  -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
-  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
   justify-content: space-between;
   z-index: 9999;
   position: absolute;
@@ -39,6 +43,11 @@ header {
   width: 40px;
   height: 40px;
   vertical-align: middle;
+  border-radius: 50%
+}
+.menuico:hover {
+  background-color: #c3c3c3;
+  transition: 0.5s;
 }
 
 .mediico {
@@ -46,6 +55,11 @@ header {
   width: 35px;
   height: 35px;
   vertical-align: middle;
+  border-radius: 50%;
+}
+.mediico:hover {
+  background-color: #c3c3c3;
+  transition: 0.5s;
 }
 
 h1 {
@@ -57,9 +71,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
-  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
   margin-top: 20vh;
   color: black;
 }
@@ -82,11 +96,10 @@ h1 {
 .menubox {
   display: flex;
   flex-direction: column;
-  width: 35vw;
+  width: 20vw;
   height: 100vh;
-  background-color: #c3c3c3;
   z-index: 1;
-  margin-right: 20px;
+  margin-right: 20vw;
 }
 .rightbox {
   display: flex;
@@ -99,10 +112,15 @@ h1 {
 }
 .impbox {
   margin-top: 80px;
-  -webkit-box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.75);
-  box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.75);
-
+  -webkit-box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.25);
+  box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.25);
+}
+.regbox {
+  -webkit-box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.25);
+  box-shadow: 0px 20px 0px -17px rgba(0,0,0,0.25);
+  margin-top: 3px;
 }
 .circimg {
   width: 50px;
@@ -110,10 +128,14 @@ h1 {
   padding: 5px;
 }
 
-.menbox {
+.minbox {
   display: flex;
   flex-direction: row;
   align-items: center;
   color: black;
   font-size: 20px;
+}
+.minbox:hover {
+  background-color: #c3c3c3;
+  transition: 0.5s;
 }
