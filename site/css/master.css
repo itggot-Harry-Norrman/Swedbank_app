@@ -69,7 +69,7 @@ h1 {
   font-size: 35px;
 }
 .card {
-  background-color: #FFA000;
+  background-color: #9E9E9E;
   width: 450px;
   display: flex;
   flex-direction: column;
@@ -180,6 +180,9 @@ h1 {
 .konton {
   padding-left: 25px;
 }
-.masking {
-  color: #FFA000;
+.banknummer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
 }
